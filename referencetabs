@@ -1,98 +1,347 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-<title>Template design by Tapika Store eBay Store Listing Designer London United Kingdom</title>
-<style>/*----- Layout -----*/body.ds_body { margin: 0; padding: 0; }div.pagecon_out * { margin: 0; padding: 0; }div.pagecon_out img { border: 0 none; }div.pagecon_out { text-align: center; }div.pagecon {width: 100%;min-width: 300px;margin: 0 auto;font-family:'montserrat',sans-serif;font-size: 13px;color: #333333;background-color: #FFFFFF;text-align: left;}div.ds_header { background: url('https://i1074.photobucket.com/albums/w407/silent_eyes/brianhoey/header-bg2_zpsdxifgk5l.png') repeat-x left top; }div.ds_left {}div.ds_right {}div.ds_footer {clear: both;background-color: #000;border-radius: 0px;color: #EFEFEF;font-size: 12px;text-align: center;padding: 13px 2px;}@media all and (min-width: 320px) {div.ds_header { border:0px !important; }}@media all and (min-width: 350px) {div.pagecon { width: 92%; }}@media all and (min-width: 600px) {div.pagecon { width: 570px; }div.ds_header { background: none; border:2px solid #000 !important; border-radius: 5px; }}@media all and (min-width: 700px) {div.pagecon { width: 650px; }div.ds_header { background: none; border:2px solid #000 !important; border-radius: 5px; }}@media all and (min-width: 800px) {div.pagecon_out { padding: 30px 0; }div.pagecon { width: 750px; }div.ds_left {clear: both;float: left;width: 25%;margin-top: 15px;}div.ds_right {float: left;width: 100%;margin-top: 15px;overflow: hidden;}div.ds_footer {text-align: left;padding: 0 15px;height: 50px;line-height: 50px;}div.ds_header { background: none; border:2px solid #000 !important; border-radius: 5px; }}@media all and (min-width: 900px) {div.pagecon { width: 850px; }div.ds_left { width: 22%; }div.ds_right { width: 100%; }div.ds_header { background: none; border:2px solid #000 !important; border-radius: 5px; }}@media all and (min-width: 1100px) {div.pagecon { width: 1050px; }div.ds_left { width: 20%; }div.ds_right { width: 100%; }div.ds_header { background: none; border:2px solid #000 !important; border-radius: 5px; }}@media all and (min-width: 1300px) {div.pagecon { width: 1200px; }div.ds_header { background: none; border:2px solid #000 !important; border-radius: 5px; }}/*----- Mobile Contact Button -----*/a.contact_mobile {float: right;margin-right: 5px;color: #FFFFFF!important;font-size: 12px;text-decoration: none!important;text-transform: uppercase;height: 36px;line-height: 36px;}@media all and (min-width: 600px) {a.contact_mobile { display: none; }}/*----- Mobile Menu Icon -----*/input#menubtn { display: none; }label.menu_mobile { float: left; margin: 3px 0 0 3px; }label.menu_mobile:hover { cursor: pointer; }label.menu_mobile img { display: block; }input#menubtn:checked ~ div.topnav { display: block; }@media all and (min-width: 600px) {label.menu_mobile { display: none; }}/*----- Header Logo -----*/a.headerlogo {clear: both;display: block;width: 62%;margin: 0 auto;padding: 14px 0;}a.headerlogo img { width: 100%; }@media all and (min-width: 600px) {a.headerlogo {float: left;width: auto;margin: 15px 0 12px 10px;padding: 0;}a.headerlogo img { width: auto; height: 70px; }}@media all and (min-width: 900px) {a.headerlogo { margin: 15px 0 12px 15px; }a.headerlogo img { height: 80px; }}@media all and (min-width: 1100px) {a.headerlogo img { height: 90px; }}/*----- Top Links -----*/div.toplinks { padding: 0; height: 55px; }@media all and (min-width: 600px) {div.toplinks {display: block;float: right;color: #000000;margin-top: 42px;margin-right: 10px;}div.toplinks a {text-decoration: none!important;color: #555555!important;padding: 0 10px;}div.toplinks a:hover { color: #00a4e4!important; }}@media all and (min-width: 900px) {div.toplinks { margin-top: 47px;margin-right: 10px; }div.toplinks a { padding: 0 15px; }}@media all and (min-width: 1100px) {div.toplinks { margin-top: 51px; margin-right: 10px; }}/*----- Top Navigation Bar -----*/div.topnav {display: none;background-color: #000;border-radius: 0px;margin-bottom: 15px;padding: 3px 8px;}div.topnav a {display: block;text-decoration: none!important;text-transform: uppercase;font-size: 12px;color: #FFFFFF!important;border-top: 1px dotted #CCCCCC;padding: 10px 0;}div.topnav a.tfirst { border-top: 0 none; }@media all and (min-width: 600px) {div.topnav {display: block;clear: both;height: 50px;line-height: 50px;margin: 0;padding: 0 0 0 10px;border-radius: 0px;box-shadow: 0 2px 5px #555555;}div.topnav a {float: left;padding: 0 10px;border-top: 0 none;}div.topnav a:hover { background-color: #EFEFEF; color: #222222!important; }}@media all and (min-width: 800px) {div.topnav { padding: 0 0 0 15px; }div.topnav a { padding: 0 15px; font-size: 13px; }}/*----- Item Title -----*/div.itemtitle {text-align: center; color: #FFFFFF;font-size: 15px;line-height: 22px;margin-bottom: 15px;padding: 10px;background-color: #00a4e4;border-radius: 0px;}@media all and (min-width: 800px) {div.itemtitle { margin: 0 0 15px 0px; }}/*----- Item Images -----*/div.gallerybox { margin: 0 15px 20px 15px; text-align: center; color: #FFFFFF }div.largepic { display: none; margin-top: 10px; }div.largepic img { max-width: 100%; max-height: 500px; }input.picbtn { display: none; }label.piclabel { display: inline-block; }label.piclabel img {display: block;height: 40px;margin: 0 1px;padding: 1px;border: 1px solid #CCCCCC;}label.piclabel img { display: none; }label.piclabel:hover img, input.picbtn:checked + label.piclabel img { cursor: pointer; border: 1px solid #111111; }#thumb1:checked ~ #pic1,#thumb2:checked ~ #pic2,#thumb3:checked ~ #pic3,#thumb4:checked ~ #pic4,#thumb5:checked ~ #pic5,#thumb6:checked ~ #pic6,#thumb7:checked ~ #pic7,#thumb8:checked ~ #pic8 { display: block; }@media all and (min-width: 700px) {label.piclabel img { height: 60px; }}@media all and (min-width: 800px) {div.gallerybox { margin: 0 15px 20px 30px; }label.piclabel img { height: 68px; }}/*----- Buttons -----*/div.buttonbox { margin-bottom: 20px; text-align: center; }div.buttonbox a {display: block;background-color: #00a4e4;border-radius: 0px;margin-bottom: 1px;height: 35px;line-height: 35px;color: #FFFFFF!important;font-size: 12px;text-decoration: none!important;text-transform: uppercase;}@media all and (min-width: 500px) {div.buttonbox a {display: inline-block;margin-bottom: 0;padding: 0 25px;}div.buttonbox a:hover { background-color: #EFEFEF; color: #222222!important; }}@media all and (min-width: 600px) {div.buttonbox a { margin: 0 5px; }}@media all and (min-width: 800px) {div.buttonbox { margin: 0 0 20px 15px; }}/*----- Item Description -----*/div.desbox {background-color: #e6e6e6;border-radius: 0px;margin: 0 2px 20px 2px;/* border:2px solid #cdcdcd; */ border-radius: 5px 5px 0 0;}div.destitle {background-color: #00a4e4;line-height: 36px;height: 36px;color: #FFFFFF;font-size: 12px;text-transform: uppercase;padding-left: 15px;border-radius: 2px 2px 0 0;text-align:center;}div.des {padding: 5px 13px;font-size: 13px;color: #333230;line-height: 16px;}div.des p { margin: 12px 0; }div.des li { margin: 1px 0 1px 20px; }div.des ul, div.des ol { margin: 12px 0; padding: 0 0 0 20px; }div.des ul li, div.des ol li { margin: 1px 0; }div.des a { color: #111111!important; text-decoration: underline!important; }div.des a:hover { color: #777777!important; text-decoration: none!important; }@media all and (min-width: 800px) {div.desbox { margin: 0 2px 20px 2px; }}@media all and (min-width: 1100px) {div.des { padding: 5px 20px; }}/*----- Item Description Image -----*/div.ds_img { margin: 15px 0; }div.ds_img img { width: 100%; }@media all and (min-width: 1100px) {div.ds_img img { width: auto; }}/*----- Tab Box -----*/div.tabbox { margin: 20px 2px; }div.tabcontent {display: none;padding: 11px 13px 1px 13px;background-color: #e6e6e6;/* border-radius: 0 8px 8px 8px; */border-radius: 0;line-height: 18px;/* border:2px solid #cdcdcd; */}div.tabcontent h3 { margin-bottom: 18px;color: #000000;font-size: 20px;font-weight: normal;text-transform: uppercase;}div.tabcontent p { margin: 15px 0; }div.tabcontent li { margin: 5px 0 5px 20px; }div.tabcontent ul, div.tabcontent ol { margin: 15px 0; padding: 0 0 0 20px; }div.tabcontent ul li, div.tabcontent ol li { margin: 5px 0; }div.tabcontent a { color: #111111!important; text-decoration: underline!important; }div.tabcontent a:hover { color: #777777!important; text-decoration: none!important; }input.tabbtn { display: none; }label.tablabel {display: inline-block;margin-right: -3px!important;padding: 0 6px!important;text-align: center;color: #FFFFFF;font-size: 12px;text-transform: uppercase;height: 36px;line-height: 36px;background-color: #00a4e4;/* border-radius: 8px 8px 0 0; */border-radius: 0;/* border:2px solid #cdcdcd; */border-bottom: 0px;}label.tablabel:hover, input.tabbtn:checked + label.tablabel {cursor: pointer;background-color: #e6e6e6;color: #222222!important;}#tab1:checked ~ #content1,#tab2:checked ~ #content2,#tab3:checked ~ #content3 { display: block; }@media all and (min-width: 320px) {label.tablabel { font-size: 10px;}}@media all and (min-width: 400px) {label.tablabel { padding: 0 11px!important;}}@media all and (min-width: 500px) {label.tablabel { padding: 0 20px!important; }}@media all and (min-width: 600px) {label.tablabel { padding: 0 25px!important; }}@media all and (min-width: 768px) {label.tablabel { font-size: 12px;}}@media all and (min-width: 800px) {div.tabbox { margin: 20px 2px 20px 2px; }div.tabcontent { height: 225px; overflow: auto; }label.tablabel { font-size: 12px;}}@media all and (min-width: 1100px) {div.tabcontent { padding: 15px 20px 1px 20px; }label.tablabel {font-size: 12px;}}/*----- Footer -----*/div.footerright, div.footerright1 { display: none; }div.footerleft a {color: #FFFFFF!important;text-decoration: none!important;text-transform: uppercase;}@media all and (min-width: 600px) {div.footerleft a:hover { text-decoration: none!important; }}@media all and (min-width: 800px) {div.footerright, div.footerright1 { display: block; float: right; }div.footerright img { display: block; margin: 8px 0 0 6px; }}div.footerright a {color: #fff!important;text-decoration: none!important; font-weight: bold;font-size: 12px;}div.footerright a:hover { color: #FFFFFF!important; }/* colors and borders */.pic_gallery {border:0px solid #888;} /* gallery border color */.pic_gallery .pic_sm div {} /* thumbnail cell border */.pic_gallery .pic_lg div {} /* main photo cell border */.pic_gallery .pic_sm img {} /* thumbnail border */.pic_gallery .pic_lg img {} /* main photo border */.pic_gallery .pic_set:hover .pic_sm div {color: red;} /* thumbnail border hover color */.pic_gallery {background-color:#FFFFFF;} /* gallerybackground color */.pic_gallery .pic_sm div, .pic_gallery .pic_lg div {background-color:#fff;} /* cell background color *//* shadows and corners */.pic_gallery .pic_sm {}.pic_gallery .pic_lg {}.pic_gallery .pic_sm div {} /* cell corners and shadows */.pic_gallery .pic_lg div {}/* cell corners and shadows */.pic_gallery .pic_sm img {}/* image corners and shadows */.pic_gallery .pic_lg img {}/* image corners and shadows *//* sizing, matting, and margins (all values interact and vary by aspect ratio and image count) */.pic_gallery { width:100% !important;max-width:none;} /* change this % for media queries */@media all and (min-width: 600px) {.pic_gallery { width: 100%!important;}}@media all and (min-width: 800px) {.pic_gallery { margin: 0 0 10px 15px;}}@media all and (min-width: 1100px) {.pic_gallery { width: 60%!important;margin-left: 225px !important;}}.pic_gallery .pic_gal_5x1 { width:100%;padding-top:119.39%;}.pic_gallery .pic_gal_5x1 .pic_gal_cells { width:96.96%;height:97.46%;} /* sets padding around entire gallery */.pic_gallery .pic_gal_5x1 .pic_sm { width:18.75%;height:15.62%;margin:0.62%;}.pic_gallery .pic_gal_5x1 .pic_lg { width:98.75%;height:82.29%;margin:0.62%;}.pic_gallery .pic_gal_5x1 .pic_sm img {max-width:83.33%;max-height:83.33%;} /* sets margin around thumbnail */.pic_gallery .pic_gal_5x1 .pic_lg img {max-width:96.83%;max-height:96.83%;} /* sets margin around large photo *//* structural */.pic_gallery, .pic_gallery .gal {position:relative;margin:auto;}.pic_gallery .pic_gal_cells {position:absolute;left:0;top:0;bottom:0;right:0;margin:auto;}.pic_gallery img {position:absolute;width:auto;height:auto;left:0;top:0;bottom:0;right:0;margin:auto;}.pic_gallery .pic_sm {position:relative;overflow:hidden;float:left;display:block;}.pic_gallery .pic_lg {position:absolute;overflow:hidden;display:none;left:0%;top:0%;z-index:1;}.pic_gallery .pic_sm div, .pic_gallery .pic_lg div {position:absolute;left:0%;top:0%;right:0%;bottom:0%;}.pic_gallery .pic_lg {display:none;}.pic_gallery .pic_lg.pic_main {position:relative;display:block;float:left;z-index:0;} /* turn on default large photo */.pic_gallery .pic_set:hover .pic_sm div { /* opacity:.5; */border:1px solid;}.pic_gallery .pic_set:hover .pic_lg {display:block;left:0%;top:0%;}
-</style>
-<!---->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans+SC&display=swap" rel="stylesheet"> 
 <style>
-/* lower browser version can not display gallery */
-.pic_gallery .pic_set {display:none}
-.pic_gallery .pic_gal { padding:0; }
-.pic_gallery .pic_gal_cells { position:relative; width:100%;}
-.pic_gallery .pic_gal .pic_lg,
-.pic_gallery .pic_gal .pic_lg img { position:relative; width:100%; padding:0; margin:1px; }
+
+body {
+  margin: 0;
+    font-family: 'Noto Sans SC', sans-serif;
+	margin: 0px;
+	overflow-x: hidden;
+	padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Fjalla One', sans-serif;
+	margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+	margin: 0px;
+	padding: 0px;
+    font-weight: normal;
+}
+
+
+    /*Strip the ul of padding and list styling*/
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+/*Create a horizontal list with spacing*/
+li {
+    display:inline-block;
+    float: left;
+    width: 25%;
+}
+/*Style for menu links*/
+li a {
+    display:block;
+    min-width:140px;
+    font-family: 'Fjalla One', sans-serif;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #acb7ae;
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+li:hover a {
+    background: #e4decd;
+    color: black;
+}
+/*Style for dropdown links*/
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+}
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    text-decoration: none;
+    color: #fff;
+    background: #acb7ae;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+        border-bottom: 1px white solid;
+    }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  }
+
+.feature {
+  padding: 6px 12px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: none;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #e4decd;
+  float: left;
+  border: 1px solid #e4decd;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 17px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #e4decd;
+  border: 1px solid #e4decd;
+  border-radius: 10px 10px 0px 0px;
+  color: #77897b;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px 10px 0px 0px;
+  color: #77897b;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px 12px;
+  background-color: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+.main {
+  float:left;
+  width:80%;
+  padding:20px 20px;
+  display:block;
+}
+.right {
+  background-color:#f2f2f2;
+  float:left;
+  width:20%;
+  padding:15px;
+  text-align:center;
+  border-radius: 0px 0px 20px 20px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
 </style>
-<!---->
-<div class="pagecon_out">
-<div class="pagecon">
-<div class="ds_header">
-<a href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=rockymountainglasscrafts" class="contact_mobile" target="_blank">Contact Us</a>
-<input id="menubtn" type="checkbox" name="menu">
-<label for="menubtn" class="menu_mobile"><img src="https://i1074.photobucket.com/albums/w407/silent_eyes/brianhoey/mobile-menu-icon1_zpsmjvde6oe.png"></label>
-<a href="https://stores.ebay.com/Rocky-Mountain-Glass-Crafts" class="headerlogo" target="_blank">
-<!-- LOGO -- Replace logo url below here -->
-<img src="https://i1074.photobucket.com/albums/w407/silent_eyes/logo_zpsswx0d0xf.png">
-</a>
-<div class="toplinks">
-Here for you! Staffed Mon - Fri 7:30-3:30 MST<br>
-Closed weekends &amp; holidays<br>
-24 hour shopping convenience!
+</head>
+<body>
+
+
+
+
+<div class="main">
+  <img src="https://i1074.photobucket.com/albums/w407/silent_eyes/logo_zpsswx0d0xf.png">
 </div>
-<div class="topnav">
-<a href="https://stores.ebay.com/Rocky-Mountain-Glass-Crafts" class="tfirst" alt="Home" title="Home" target="_blank">Home</a>
-<a href="https://www.ebay.com/usr/rockymountainglasscrafts" alt="About Us" title="About Us" target="_blank">About Us</a>
-<a href="https://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=rockymountainglasscrafts&amp;ftab=FeedbackAsSeller" alt="Feedback" title="Feedback" target="_blank">Feedback</a>
-<a href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=rockymountainglasscrafts" alt="Contact Us" title="Contact Us" target="_blank">Contact Us</a>
-<a href="https://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&amp;sellerid=rockymountainglasscrafts" alt="Add Us" title="Add Us" target="_blank">Add to favorites</a>
+
+  <div class="right">
+    <p style="font-size:12px;">Here for you! <br />Staffed Mon - Fri 7:30-3:30 MST <br />Closed weekends & holidays <br />24 hour shopping convenience!</p>
+  </div>
+
+ <div style="clear: both;">
+    <label for="show-menu" class="show-menu"><i class="fa fa-bars"></i></label>
+    <input type="checkbox" id="show-menu" role="button">
+        <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Contact Us</a>
+        </li>
+        <li>
+            <a href="#">Add to Favorites</a>
+        </li>
+        <li><a href="#">Visit Our Store</a></li>
+    </ul>
 </div>
+  
+
+<div style="background-color:#e4decd;text-align:center;padding:15px;color:#77897b; clear: both; border-top: 20px white solid;"><h3>PRODUCT DESCRIPTION</h3></div>
+
+<div class="feature">
+Product description here
 </div>
-<div class="ds_right">
-<!-- PRODUCT TITLE -- Replace product title below here -->
-<div class="itemtitle"></div>
-<div class="buttonbox">
-<a href="https://stores.ebay.com/Rocky-Mountain-Glass-Crafts" title="Store Home" target="_blank">Store Home</a>
-<a href="https://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback2&amp;userid=rockymountainglasscrafts&amp;ftab=FeedbackAsSeller" title="Our Feedback" target="_blank">Our Feedback</a>
-<a href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&amp;recipient=rockymountainglasscrafts" title="Ask a Question" target="_blank">Ask a Question</a>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+ 
+
+<div class="tab">
+  <button class="tablinks" onclick="openDesc(event, 'Shipping')" id="defaultOpen">SHIPPING</button>
+  <button class="tablinks" onclick="openDesc(event, 'Payment')">PAYMENT</button>
+  <button class="tablinks" onclick="openDesc(event, 'Returns')">RETURNS</button>
 </div>
-<div class="desbox">
-<div class="destitle">Product Description</div>
-<div class="des">
-<div vocab="https://schema.org/" typeof="Product">
-<!-- ITEM DESCRIPTION -- Replace item description content below here -->
-<span property="description">
-This listing is for one faceted jewel.<br><br>They are unfoiled, have an edge that readily accepts foil for stained glass panels and are flat backed. <br><br>One piece<br><br>Size: 50mm 1.96 inches<br><br>These large jewels make a stunning focal piece for your glass art.<br><br>These may show larger or smaller than actual size on your computer. Please note the measurements given.
-</span>
-</div>
-</div>
-</div>
-<div class="tabbox">
-<input id="tab1" type="radio" name="tabs" class="tabbtn" checked="">
-<label for="tab1" class="tablabel">Shipping</label>
-<input id="tab2" type="radio" name="tabs" class="tabbtn">
-<label for="tab2" class="tablabel">Payment</label>
-<input id="tab3" type="radio" name="tabs" class="tabbtn">
-<label for="tab3" class="tablabel">Returns</label>
-<!-- tab 1 -- Insert content below here, p represents each paragraph, li is list(must be used in ul). ---------->
-<div class="tabcontent" id="content1">
-<h3>COMBINED SHIPPING &amp; SHIPPING SPEED</h3>
-<p><b>Combined Shipping is easy! Our items are all in the system by weight. Put the items you'd like into the eBay shopping cart and they'll calculate automatically.</b> We sell art supplies, not postage and handling. Our postage rates are based on the actual weight and size of your order.</p>
-<p><b>There's not such thing as free shipping.</b> Free shipping is just postage costs added to the item price and that just doesn't work for our loyal buyers. If you buy more than one item (as most buyers do), you'll pay much less by paying postage one time than by having it added to each item under a "free" shipping&nbsp; gimmick.</p>
+
+<div id="Shipping" class="tabcontent">
+
+<h3>COMBINED SHIPPING & SHIPPING SPEED</h3>
+
+<p><b>Combined Shipping is easy!</b> Our items are all in the system by weight. Put the items you'd like into the eBay shopping cart and they'll calculate automatically. We sell art supplies, not postage and handling. Our postage rates are based on the actual weight and size of your order.</p>
+
+<p><b>There's no such thing as free shipping.</b> Free shipping is just postage costs added to the item price and that just doesn't work for our loyal buyers. If you buy more than one item (as most buyers do), you'll pay much less by paying postage one time than by having it added to each item under a "free" shipping  gimmick.</p>
+
 <p>We do, however, have some <b>amazing shipping promotions throughout our store</b> where we'll pitch in on the postage costs.</p>
+
 <p><b>Shipping Speed:</b> We're quick shippers. All items are in stock and ready to ship, many the same day. We ship Monday through Friday and if we're in the studio, we'll ship on Saturdays, just for you!</p>
-<p><b>International buyers are welcome!</b> Any duties, fees or taxes charged by your country are paid BY YOU when you pick up your parcel.</p>
 </div>
-<!-- tab 2 -- Insert content below here, p represents each paragraph, li is list(must be used in ul). ---------->
-<div class="tabcontent" id="content2">
-<h3>Methods of Payment</h3>
-<p>We prefer PayPal</p>
-<p>e-checks through PayPal</p>
-<p>Credit cards through PayPal</p>
+
+<div id="Payment" class="tabcontent">
+  <h3>SAVE $$$ BY BUYING ALL YOUR SELECTIONS TOGETHER</h3>
+
+<p>For the best shipping rates, use the eBay shopping cart to pay for all of your selections in one payment.</p>
+
 </div>
-<!-- tab 3 -- Insert content below here, p represents each paragraph, li is list(must be used in ul). ---------->
-<div class="tabcontent" id="content3">
-<h3>Returns</h3>
-<p>Change your mind? No problem. We accept returns for any reason. Use eBay's return hub to return your item. It's easy. Please pack the item securely and return it to us, unused, unopened and undamaged within 30 days. We'll inspect it when it gets here and provide a quick refund--usually the same day. Original and return postage are not refundable.</p>
-<p><u>If an item Arrives With Shipping Damage.</u> Report shipping damage to us immediately. Do not throw anything away. The carrier may wish to collect the box and contents.</p>
-<p><u>If Item is Defective.</u> We inspect every article before sending and make sure that all the parts are in sets. In the unlikely event that you receive a defective item, use eBay's return hub. It's easy. Select the reason for the return, print a label and repack the item. We'll send you a refund or replacement (your choice) upon receipt.</p>
-<p><b>Because computer monitors vary greatly, issues with color are NOT considered defects. These items all show very true to color on our monitors, but yours may vary greatly.</b></p>
-<p><u>Returned and Unclaimed Parcels.</u> Returned parcels are refunded and charged a restocking fee. Please provide a valid address. Unclaimed International parcels are not refunded. Please pick up your parcel.
-</p></div>
+
+<div id="Returns" class="tabcontent">
+  <h3>RETURNS</h3>
+
+  <p>Change your mind? No problem. We accept returns for any reason. Use eBay's return hub to return your item. It's easy. Please pack the item securely and return it to us, unused, unopened and undamaged within 30 days.</p>
+ 
 </div>
-</div>
-<div class="ds_footer">
-<div class="footerleft" style="text-align:center;"><a href="https://stores.ebay.com/Rocky-Mountain-Glass-Crafts" title="Rocky Mountain Glass Crafts" target="_blank"><strong>Rocky Mountain Glass Crafts</strong></a> - All Rights Reserved || Design by <a href="https://www.ebay.com/usr/tapika-store" target="_blank" title="Tapika Store eBay Store Listing Designer London United Kingdom">Tapika Store</a></div>
-</div>
-</div>
-</div>
+
+<div style="background-color:#e4decd;text-align:center;padding:15px;margin-top:20px;">Rocky Mountain Glass Crafts - All Rights Reserved ~ Design by C Harper</div>
+
+<script>
+function openDesc(evt, descName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(descName).style.display = "block";
+  evt.currentTarget.className += " active";
+  
+}
+  document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
