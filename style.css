@@ -1,74 +1,140 @@
 body {
-  margin: 0;
+	margin: 0px;
+    }
+
+.tabcontent, .feature, .right {
     font-family: 'Noto Sans SC', sans-serif;
 	margin: 0px;
 	overflow-x: hidden;
 	padding: 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+.titlebar {
+ background-color:#e4decd;
+ text-align:center;
+ padding:15px;
+ color:#77897b; 
+ clear: both; 
+ border-top: 20px white solid;
+ font-family: 'Noto Sans SC', sans-serif;
+ }
+
+h1, h2, h3, h4, h5 {
     font-family: 'Fjalla One', sans-serif;
 	margin: 0
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Fjalla One', sans-serif;
 	margin: 0px;
 	padding: 0px;
     font-weight: normal;
 }
 
-ul,
-ol {
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
+
+    /*Strip the ul of padding and list styling*/
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+/*Create a horizontal list with spacing*/
+li {
+    display:inline-block;
+    float: left;
+    width: 25%;
+}
+/*Style for menu links*/
+li a {
+    display:block;
+    min-width:140px;
+    font-family: 'Fjalla One', sans-serif;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #acb7ae;
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+li:hover a {
+    background: #e4decd;
+    color: black;
+}
+/*Style for dropdown links*/
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+/*Hover state for dropdown links*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+/*Hide dropdown links until they are needed*/
+li ul {
+    display: none;
+}
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+    float: none;
+}
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    text-decoration: none;
+    color: #fff;
+    background: #acb7ae;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing--Note for consistency the use of border-bottom on .show-menu*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 100%;
+    }
+    /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+        border-bottom: 1px white solid;
+    }
 }
 
 img {
   display: block;
   max-width: 100%;
   }
-
-.topnav {
-  overflow: hidden;
-  background-color: #acb7ae;
-  width: 100%;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  font-family: 'Fjalla One', sans-serif;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #e4decd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color:  #e4decd;
-  color: black;
-}
-
-.topnav .icon {
-  display: none;
-}
 
 .feature {
   padding: 6px 12px;
@@ -168,4 +234,3 @@ img {
     text-align: left;
   }
 }
-
