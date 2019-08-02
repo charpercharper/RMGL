@@ -124,7 +124,7 @@ input[type=checkbox]:checked ~ #menu{
         position: static;
         display: none;
     }
-    /*Create vertical spacing*/
+    /*Create vertical spacing--Note for consistency the use of border-bottom on .show-menu*/
     li {
         margin-bottom: 1px;
     }
@@ -252,7 +252,7 @@ img {
 
 
 <div class="main">
-  <img src="https://i1074.photobucket.com/albums/w407/silent_eyes/logo_zpsswx0d0xf.png">
+  <img src="https://cdn.shopify.com/s/files/1/1059/9550/files/logofinal_360x.png">
 </div>
 
   <div class="right">
@@ -263,14 +263,14 @@ img {
     <label for="show-menu" class="show-menu"><i class="fa fa-bars"></i></label>
     <input type="checkbox" id="show-menu" role="button">
         <ul id="menu">
-        <li><a href="#">Home</a></li>
+        <li><a href="https://stores.ebay.com/Rocky-Mountain-Glass-Crafts">Home</a></li>
         <li>
-            <a href="#">Contact Us</a>
+            <a href="https://contact.ebay.com/ws/eBayISAPI.dll?ContactUserNextGen&recipient=rockymountainglasscrafts">Contact Us</a>
         </li>
         <li>
-            <a href="#">Add to Favorites</a>
+            <a href="https://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&sellerid=rockymountainglasscrafts">Add to Favorites</a>
         </li>
-        <li><a href="#">Visit Our Store</a></li>
+        <li><a href="https://www.rockymountainglasscrafts.com">Visit Our Store</a></li>
     </ul>
 </div>
   
